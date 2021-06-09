@@ -1,0 +1,217 @@
+/*screen smaller than 768px*/
+@media screen and (max-width: 769px){
+    .ml9 {
+        font-size: 4em;
+    }
+/*navbar*/
+    .nav-overlay.open{
+        opacity: 1;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 14vh;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        background: linear-gradient(rgba(20,20,20, .9), rgba(20,20,20, .9));
+    }
+
+    .nav-overlay ul{
+        display: none;
+    }
+
+    .nav-overlay.open ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .nav-overlay li{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    .nav-overlay li a{
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    .nav-overlay li a:hover{
+        color: #ffffff;
+    }
+
+    .nav-overlay img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+
+    .nav-overlay div{
+        color: #25bb7d;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    body.noscroll{
+        overflow-y: hidden;
+    }
+
+    .navbar-logo img {
+        width: 50px;
+        padding-top: 15px;
+    }
+
+    .menu-list{
+    	display: none;
+    }
+
+    #burger-container{
+        display: block;
+        padding-top: 14px;
+    }
+
+    .navbar-title {
+        padding: 14px 0;
+    }
+
+    /*global*/
+    .heading {
+        font-size: 25px;
+    }
+
+    .about-details {
+        font-size: 16px;
+        padding: 10% 7% 1%;
+        line-height: 25px;
+    }
+
+    .offshore-container{
+        padding: 65px 40px;
+    }
+    /*about detail page*/
+
+    .about-page .about-details {
+        font-size: 15px;
+        padding: 40px 40px 0px;
+        line-height: 25px;
+    }
+
+    .about-page .line-about {
+        top: 30vh;
+        left: 33%;
+        width: 36vw;
+    }
+}
+
+/*screen smaller than 400px*/
+@media screen and (max-width: 400px){
+    .ml9 {
+        font-size: 4em;
+    }
+
+    /*navbar page*/
+    .navbar-logo img {
+        width: 50px;
+        padding-top: 8px;
+    }
+
+    .navbar-title a{
+        padding: 0;
+    }
+
+    .offshore-title{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .offshore-info{
+        font-size: 15px;
+    }
+
+    .offshore-box img {
+        width: 40px;
+        margin: 14px auto;
+    }
+
+    .box img {
+        height: 150px;
+    }
+}
+
+/*screen smaller than 325px*/
+@media screen and (max-width: 325px){ 
+    .ml9 {
+        font-size: 4em;
+    }
+
+    .nav-overlay li {
+        font-size: 15px;
+    }
+
+    /*about page*/
+    .line-about {
+        left: 32%;
+        top: 21vh;
+        width: 35vw;
+    }
+
+    .about-details {
+        font-size: 14px;
+        padding: 10% 8% 1%;
+        line-height: 24px;
+    }
+
+    .offshore-container {
+        padding: 65px 25px;
+    }
+
+    .offshore-title {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .offshore-info {
+        font-size: 14px;
+    }
+
+    /*about details page*/
+    .about-page .line-about {
+        top: 31vh;
+        left: 28%;
+        width: 47vw;
+    }
+
+    .about-page .about-details {
+        font-size: 14px;
+        padding: 40px 32px 0px;
+        line-height: 24px;
+    }
+}
+
+/*screen larger than 768px*/
+@media screen and (min-width: 769px){   
+    .nav-overlay{
+        display: none;
+    }
+
+    .nav-overlay div{
+        color: #25bb7d;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .menu-list{
+        padding-top: 25px;
+        padding-right: 30px;
+        opacity: 1;
+        /*transition: all ease-in-out 0.9s;*/
+    }
+
+    #burger-container{
+        display: none;
+    }
+}
